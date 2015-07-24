@@ -1,0 +1,173 @@
+/* header _____________________________________________________________________________*/
+.b-header-container {
+  
+  min-width: 1200px;
+  margin: 0 auto;
+ /* min-height: 120px;*/
+  background: rgb(217,228,240); 
+}
+
+.b-header {
+  background: rgb(217,228,240); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2Q5ZTRmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YwZjRmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2YwZjRmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOWU0ZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left,  rgba(217,228,240,1) 1%, rgba(240,244,249,1) 50%, rgba(240,244,249,1) 53%, rgba(217,228,239,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(1%,rgba(217,228,240,1)), color-stop(50%,rgba(240,244,249,1)), color-stop(53%,rgba(240,244,249,1)), color-stop(100%,rgba(217,228,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(217,228,240,1) 1%,rgba(240,244,249,1) 50%,rgba(240,244,249,1) 53%,rgba(217,228,239,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(217,228,240,1) 1%,rgba(240,244,249,1) 50%,rgba(240,244,249,1) 53%,rgba(217,228,239,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(217,228,240,1) 1%,rgba(240,244,249,1) 50%,rgba(240,244,249,1) 53%,rgba(217,228,239,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(217,228,240,1) 1%,rgba(240,244,249,1) 50%,rgba(240,244,249,1) 53%,rgba(217,228,239,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9e4f0', endColorstr='#d9e4ef',GradientType=1 ); /* IE6-8 */
+
+  width: 1000px;
+  margin: 0 auto;
+  /*height: 120px;*/
+  margin-bottom: 38px;
+
+
+}
+
+.b-header-content {
+  position:relative;
+  height: 120px;
+}
+
+
+.b-logo {
+  top:25px;
+  left:0;
+  position: absolute;
+  
+}
+.b-contacts{
+  position: absolute;
+  top: 25px;
+  left: 805px;
+}
+
+/* header menu _____________________________________________________________________*/
+.b-header-menu {
+  position:absolute;
+  left:12px;
+  top:98px;
+   
+}
+
+.b-header-menu__items{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+.b-header-menu__item {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    height: 38px;
+   
+}
+
+
+.b-header-menu__link {
+    font-family: "elektra_light_proregular";
+    font-size: 15px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 11px;
+    color: #a5b3c1;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #e3e3e3;
+
+
+}
+
+.b-header-menu__link:after {
+    content: "";
+    display: block;
+    width:24px;
+    background: url('../img/aft.png');
+    background-repeat:  no-repeat;
+    position: absolute;
+    top:0px;
+    left:100%;
+    height:42px;
+}
+
+.b-header-menu__link:before {
+    content: "";
+    display: block;
+    width:24px;
+    background: url('../img/prev.png');
+    background-repeat:  no-repeat;
+    position: absolute;
+    top:0px;
+    left:-15px;
+    height:41px;
+}
+/* hover ______________________*/
+.b-header-menu__link:hover {
+  background-color: #dce6f0;
+}
+.b-header-menu__link:hover:before {
+  background: url('../img/prev-h.png');
+  background-repeat:  no-repeat;
+} 
+.b-header-menu__link:hover:after {
+  background: url('../img/aft-h.png');
+  background-repeat:  no-repeat;
+}
+/* active ______________________*/
+.b-header-menu__link.active {
+    background-color: #00b9fe;
+}
+.b-header-menu__link.active:before {
+  background: url('../img/prev-aa.png');
+  background-repeat:  no-repeat;
+} 
+.b-header-menu__link.active:after {
+  background: url('../img/aft-a.png');
+  background-repeat:  no-repeat;
+}
+
+/* contacts _______________________________________________________________________________________*/
+.b-contacts {
+  position: absolute;
+  top:23px;
+ left: 810px;
+}
+.b-contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.b-contacts__item-link {
+  text-decoration: none;
+  font-family: "elektra_light_proregular";
+  font-style: normal;
+  font-size: 25px;
+
+ 
+  color: #728da6;
+  vertical-align: top;
+}
+
+.phone-code {
+  vertical-align: top;
+  font-size: 15px;
+  font-family: "elektra_light_probold";
+  margin-right: 10px;
+  color: #00b9fe;
+}
+.mail-link {
+  font-family:"elektra_light_proregular";
+  font-size: 18px;
+  color: #613993;
+
+}
+.mail-link:hover {
+  text-decoration: underline;
+
+}

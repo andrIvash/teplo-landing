@@ -1,0 +1,67 @@
+doctype html
+<!--[if IE 8]>
+<html class='no-js ie ie8' lang='ru-RU'>
+<![endif]-->
+<!--[if IE]>
+<html class='no-js ie' lang='ru-RU'>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='ru-RU'>
+<!--<![endif]-->
+head
+	meta(charset='utf-8')
+	meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+	// Seo
+	meta(name='description', content='')
+	meta(name='keywords', content='')
+	meta(name='author', content='')
+
+	// Favicon
+	link(rel='icon', type="image/png", href="favicon-32x32.png")
+
+	block title
+       
+
+	// Styles
+
+	<!-- build:css css/vendor.min.css -->
+	// bower:css
+	
+	// endbower
+	<!-- endbuild -->
+	
+	<!-- build:css css/common.min.css -->
+	link(rel='stylesheet', href='css/main.css')
+	<!-- endbuild -->
+
+	// JS
+	
+	<!-- build:js js/vendor.min.js -->
+	// bower:js
+	
+	// endbower
+	<!-- endbuild -->
+
+body
+	<!--[if lt IE 8]>
+	<p class='browserupgrade'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	// Content: start
+	.wrapper
+		block header
+		block sidebar
+		block content
+
+	// Footer: start
+	
+		block footer
+	// Footer: end
+
+	// JS: start
+
+	// build:js js/common.min.js
+	script(src='js/main.js')
+	script(src='js/plugins.js')
+	// endbuild

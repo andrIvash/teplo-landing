@@ -1,0 +1,10 @@
+{
+  "name": "landing",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "1.11.3",
+    "normalize.css": "~3.0.3",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2"
+  }
+}
